@@ -1,0 +1,56 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: linear-gradient(to left bottom, #683f54, #77556d, #866c86, #95849f, #a59cb6);
+    max-height: 200vh;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .mainDiv {
+    text-align: center;
+    background-color: #e2beef;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  /* Styles for the dog image container */
+  .dogImageContainer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e2beef;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Hover effect for the dog image container */
+  .dogImageContainer:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Styles for the dog image */
+  #api1 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Button style */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #263a4f;
+    color:whitesmoke;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
